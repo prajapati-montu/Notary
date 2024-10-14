@@ -35,11 +35,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Login />} />
+        <Route path='/Login' element={<Login />} />
         <Route path='/demo' element={<Demo />} />
+        <Route path='/' element={<Registration />} />
         <Route path='/create-password' element={<CreatePW />} />
         <Route path='/create-password-employee' element={<CreatePWEmp />} />
-        <Route path='/registration' element={<Registration />} />
+       
         <Route path='/identityproofs' element={<IdentityProofs />} />
         <Route path='/personalreg' element={<Personalreg />} />
         <Route path='/contactdetail' element={<Contactdetail />} />
